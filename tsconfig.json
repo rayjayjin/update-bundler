@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "noImplicitAny": true,
+    "target": "ES5", 
+    "module": "commonjs",
+    "baseUrl": "./src/",
+    "outDir": "./dist",
+    "typeRoots": ["./node_modules/@types"],
+    "esModuleInterop": true,
+    "paths": {
+      "app": ["app/*"]
+    },
+    "lib": ["DOM", "ES5", "ES6"]
+  },
+  "exclude": ["node_modules"]
+}
